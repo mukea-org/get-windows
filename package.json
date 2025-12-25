@@ -1,18 +1,19 @@
 {
 	"name": "get-windows",
-	"version": "9.2.3",
+	"version": "9.3.0",
 	"description": "Get metadata about the active window and open windows (title, id, bounds, owner, URL, etc)",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/sindresorhus/get-windows.git"
+		"url": "git+https://github.com/mukea-org/get-windows.git"
 	},
-	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "https://sindresorhus.com"
+		"name": "w0fv1"
 	},
+	"bugs": {
+		"url": "https://github.com/mukea-org/get-windows/issues"
+	},
+	"homepage": "https://github.com/mukea-org/get-windows",
 	"type": "module",
 	"exports": {
 		"types": "./index.d.ts",
@@ -81,18 +82,18 @@
 		"brave"
 	],
 	"devDependencies": {
-		"ava": "^6.1.3",
-		"tsd": "^0.31.1",
-		"xo": "^0.59.3",
+		"ava": "^6.4.1",
+		"tsd": "^0.33.0",
+		"xo": "^1.2.3",
 		"node-pre-gyp-github": "^2.0.0"
 	},
 	"optionalDependencies": {
-		"@mapbox/node-pre-gyp": "^1.0.11",
-		"node-addon-api": "^8.1.0",
-		"node-gyp": "^10.2.0"
+		"@mapbox/node-pre-gyp": "^2.0.3",
+		"node-addon-api": "^8.5.0",
+		"node-gyp": "^12.1.0"
 	},
 	"peerDependencies": {
-		"node-gyp": "^10.1.0"
+		"node-gyp": "^12.1.0"
 	},
 	"peerDependenciesMeta": {
 		"node-gyp": {

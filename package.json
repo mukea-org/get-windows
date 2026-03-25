@@ -1,6 +1,6 @@
 {
 	"name": "@mukea/get-windows",
-	"version": "9.3.3",
+	"version": "9.3.4",
 	"description": "Get metadata about the active window and open windows (title, id, bounds, owner, URL, etc)",
 	"license": "MIT",
 	"repository": {

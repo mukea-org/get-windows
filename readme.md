@@ -1,4 +1,4 @@
-# get-windows
+# @mukea/get-windows
 
 > Get metadata about the [active window](https://en.wikipedia.org/wiki/Active_window) and open windows (title, id, bounds, owner, URL, etc)
 
@@ -7,7 +7,7 @@ Works on macOS 10.14+, Linux ([note](#linux-support)), and Windows 7+.
 ## Install
 
 ```sh
-npm install get-windows
+npm install @mukea/get-windows
 ```
 
 **[This is an ESM package which requires you to use ESM](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c)**
@@ -15,7 +15,7 @@ npm install get-windows
 ## Usage
 
 ```js
-import {activeWindow} from 'get-windows';
+import {activeWindow} from '@mukea/get-windows';
 
 console.log(await activeWindow(options));
 /*
@@ -34,7 +34,7 @@ console.log(await activeWindow(options));
 		bundleId: 'com.google.Chrome',
 		path: '/Applications/Google Chrome.app'
 	},
-	url: 'https://sindresorhus.com/unicorn',
+	url: 'https://mukea.cc',
 	memoryUsage: 11015432
 }
 */
@@ -131,7 +131,7 @@ If you use this package in an Electron app that is sandboxed and you want to get
 
 ## Related
 
-- [windows-cli](https://github.com/sindresorhus/windows-cli) - CLI for this package
+- [windows-cli](https://github.com/sindresorhus/windows-cli) - CLI for the upstream package
 
 ## Development
 

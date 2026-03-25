@@ -114,7 +114,7 @@ Get metadata about the [active window](https://en.wikipedia.org/wiki/Active_wind
 
 @example
 ```
-import {activeWindow} from 'get-windows';
+import {activeWindow} from '@mukea/get-windows';
 
 const result = await activeWindow();
 
@@ -139,7 +139,7 @@ Get metadata about the [active window](https://en.wikipedia.org/wiki/Active_wind
 
 @example
 ```
-import {activeWindowSync} from 'get-windows';
+import {activeWindowSync} from '@mukea/get-windows';
 
 const result = activeWindowSync();
 
